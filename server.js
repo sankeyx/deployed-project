@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('this is service on 3001!')
+    res.send('this is sservice on 3001!')
 })
 
 app.listen(3001, () => {
